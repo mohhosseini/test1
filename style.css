@@ -1,0 +1,160 @@
+html{
+    display: inline-block;
+    overflow: hidden;
+}
+form {
+    background-color: #222222;
+     padding: 70px;
+     width: 285px;
+     height: 310px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+     border-radius: 1%;
+     top: 13vh;
+     left: 2vw;
+     box-shadow: -3px 2px 15px 0 rgb(17, 17, 17);
+     z-index: 2;
+}    
+    h2 {
+        margin: 2px;
+        margin-top: -35px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 60px;
+        text-align: center;
+        color: #f0e000;
+    }
+    .username-fill{
+        position: absolute;
+        left: 40px;
+        bottom: 62%;
+        height: 4%;
+        width: 70%;;
+        background-color: #333333; 
+        border: none;
+        border-radius: 3px;
+        color: #a8a8a8;
+        padding: 15px 32px;
+        padding-left: 9px;
+        display: inline-block;
+        font-size: 18px;
+        margin: 2px;
+        font-family:   Arial, sans-serif;
+        scale: (1);
+        transition: 0.5s;
+    }
+    .username-fill:focus{
+        transform:scale(1.05);
+    }
+    .pwd-fill{
+        position: absolute;
+        left: 40px;
+        bottom: 47%;
+        height: 4%;
+        width: 70%;
+        background-color: #333333; 
+        border: none;
+        border-radius: 3px;
+        color: #a8a8a8;
+        padding: 15px 32px;
+        text-decoration: none;
+        display: inline-block;
+        padding-left: 9px;
+        font-size:18px;
+        margin: 2px;
+        font-family:   Arial, sans-serif;
+        scale: (1);
+        transition: 0.5s;
+    }
+    .pwd-fill:focus{
+        transform: scale(1.05);
+    }
+    
+    .button {
+        background-color: #f0e000; 
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 23px;
+        position: absolute;
+        left: 52px;
+        top: 320px;
+        width: 320px;
+        border-radius: 4px;
+        transition: 0.7s;
+        margin: 2px;
+        font-family:   Arial, sans-serif;
+        transform: scale(1,1);
+    }
+    .button:hover {
+        background-color: rgb(255, 255, 255); 
+        border-radius: 30px;
+        transform: scale(1.08,1.08);
+    }
+    .forget-pass{
+        position: absolute;
+        bottom: 35%;
+        right: 249px;
+        color: #afa4a4;
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transform: scale(1);
+        transition: 0.5s;
+    }
+    .forget-pass:hover {
+        color: #ffffff;
+        transform: scale(1.03);
+    }
+    .signup{
+        position: absolute;
+        bottom: 35%;
+        right: 52px;
+        color: #f0e000;
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transform: scale(1);
+        transition: 0.5s;
+     }
+    .signup:hover{
+        color: #ffffff;
+        transform: scale(1.03);
+    }
+    a:link{
+        text-decoration: none;
+    }
+    a:visited{
+        text-decoration: none;
+    }
+
+    
+    body {
+        width: 90%;
+        height: 110vh;
+        background-color: #000;
+        background-image: radial-gradient(circle at top right, rgba(251, 255, 0, 0.103),       transparent),
+          radial-gradient(circle at 20% 80%, rgba(0, 0, 0, 0.13), transparent)
+      }
+      canvas {
+        position: relative;
+        bottom: 450px;
+        width: 2000px;
+        height: 1000px;
+        display: inline;
+        z-index:1;
+      }
+      
+      a {
+        position: absolute;
+        bottom: 2vmin;
+        right: 2vmin;
+        color: rgba(255,255,255,0.2);
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: #fff;
+      }
