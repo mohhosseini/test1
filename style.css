@@ -16,7 +16,6 @@ form {
      left: 2vw;
      box-shadow: -3px 2px 15px 0 rgb(17, 17, 17);
      z-index: 2;
-    transform: scale(0.86,0.86);
 }    
     h2 {
         margin: 2px;
